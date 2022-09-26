@@ -1,0 +1,121 @@
+/*______________NAV BAR_______________*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+.navbar > ul li {
+    padding: 15px;
+}
+
+i{
+    padding: 10px;
+    color: grey;
+}
+
+.navbar > ul{
+    list-style: none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: saturate(180%);
+    backdrop-filter: blur(20px);
+
+}
+
+li{
+    display: inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*_____________NAVBAR HOVER________________*/
+.nav:hover{
+    font-weight: bold;
+}
+
+i:hover{
+   font-weight: bold;
+   color: white;
+}
+/*____________NAVBAR HOVER_________________ */
+
+
+
+/*_________________COVER1______________________*/
+.cover1 > ul li{
+    text-align: center;
+    display: grid;
+    padding: 5px;
+}
+.cov1 > h2{
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 90px;
+}
+
+.cov1 > p1{
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.image1{
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+.cover1{
+    background-color: black;
+}
+/*_____________COVER2__________________*/
+.image2{
+    width: 50%;
+   margin: auto;
+   display: block;
+    margin-top: 50px;
+}
+.cover2 > ul li{
+    text-align: center;
+    display: grid;
+    padding: 5px;
+}
+.cov2 > h2{
+    font-size: 40px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.cov2 > p1{
+    color: black;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.cov2 > p2{
+    color: grey;
+    font-size: large;
+}
+/*_____________COVER2__________________*/
+
+
+
+/*_____________COVER3__________________*/
+.cover3 > *{
+    columns: 2;
+}
+
+.column{
+
+}
+/*_____________COVER3__________________*/
